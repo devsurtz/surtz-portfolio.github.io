@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="home.css" />
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+</head>
+
+<body>
+  <div class="navBarSection" id="navBarSection">
+    <nav class="navBar animate__animated animate__fadeInDown animate__delay-2s" id="navBar">
+      <div class="logo">Welcome to my portfolio!</div>
+
+      <div class="leftBtn">
+        <div class="homeBtn">
+          <a href="#homeSection">Home</a>
+        </div>
+        <div class="portfolioBtn">
+          <a href="#portfolioSection">Projects</a>
+        </div>
+        <div class="skilltBtn">
+          <a href="#skillSection">Skill</a>
+        </div>
+        <div class="contactBtn">
+          <a href="#contactSection">Contact</a>
+        </div>
+      </div>
+
+    </nav>
+  </div>
+  <div class="stickyNav" id="stickyNav">
+    <div class="sideHomeBtn">
+      <a href="#homeSection">Home</a>
+    </div>
+    <div class="sidePortfolioBtn">
+      <a href="#portfolioSection">Projects</a>
+    </div>
+    <div class="sideSkilltBtn">
+      <a href="#skillSection">Skill</a>
+    </div>
+    <div class="sideContactBtn">
+      <a href="#contactSection">Contact</a>
+    </div>
+  </div>
+
+  <section class="homeSection" id="homeSection">
+    <div class="homeContent">
+      <div class="homeHeadline">Hi, My name is <span class="myName">Sylbert John Asid!</span></div>
+      <div id="typing-container">
+        <div id="typing"></div>
+        <div id="caret"></div>
+      </div>
+      <div class="introBox">
+        I recently graduated with a Bachelor of Science in Information Technology and am passionate about becoming a
+        full-stack developer. I've already built several projects using programming languages and various website
+        builders to hone my skills..
+      </div>
+      <div class="wrapper1">
+        <a class="cta1" href="#">
+          <span class="span1">Download CV</span>
+          <span class="span1">
+            <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path class="one"
+                  d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                  fill="#1c3f41"></path>
+                <path class="two"
+                  d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                  fill="#1c3f41"></path>
+                <path class="three"
+                  d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                  fill="#1c3f41"></path>
+              </g>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+    <div class="blob"></div>
+  </section>
+  <section class="askBotSection">
+    <div class="askBox">
+      <div class="consoleBotBox">
+        <div id="console"></div>
+        <div id="bot" class="neutral">
+          <div id="head">
+            <div id="left-ear">
+              <div id="left-ear-inner"></div>
+            </div>
+            <div id="face">
+              <div id="eyes">
+                <div id="left-eye"></div>
+                <div id="right-eye"></div>
+              </div>
+              <div id="mouth"></div>
+            </div>
+            <div id="right-ear">
+              <div id="right-ear-inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="askLabel">
+        <label class="typeHere" for="typeHere">Ask SylBot:</label>
+        <input id="input" type="text" autofocus onkeydown="handleInput(event)" />
+      </div>
+    </div>
+  </section>
+  <section class="portfolioSection" id="portfolioSection">
+    <div class="portfolioHeadline">
+      Completed/Ongoing Projects
+    </div>
+    <div class="portfolioSectionBtns">
+      <div class="allBtnBox"><button onclick="showAll()">All</button>
+        <button onclick="showWebsite()">Website</button>
+        <button onclick="showMobileApp()">Mobile App</button>
+        <button onclick="showRobotics()">Robotics</button>
+      </div>
+
+    </div>
+    <div class="portfolioContainer">
+      <div class="portfolioDetails">
+        <div class="portfolioContents">
+          <div class="1stImg"><img src="img/web-img/empowerography.svg" alt="empowerography" /></div>
+          <div class="1stImg"><img src="img/web-img/bhaus.svg" alt="bhaussadproject" /></div>
+          <div class="1stImg"><img src="img/web-img/essuewebsite.svg" alt="essuerequestwebsite" /></div>
+          <div class="1stImg"><img src="img/web-img/fanranch.svg" alt="fanranch" /></div>
+          <div class="1stImg"><img src="img/web-img/inhouze.svg" alt="inhouzeproduction" /></div>
+          <div class="1stImg"><img src="img/web-img/websiteplan.svg" alt="websiteplanpage" /></div>
+          <div class="1stImg"><img src="img/web-img/xact.svg" alt="xactagriculture" /></div>
+          <div class="2ndImg" style="width: 70%; height: 80%;"><img src="img/mobile-dev-img/HDIapp.svg" alt="hdiapp" />
+          </div>
+          <div class="2ndImg" style="width: 70%; height: 80%;"> <img src="img/mobile-dev-img/rccontroller.svg"
+              alt="rcbluetooth" /></div>
+          <div class="3rdImg"><img src="img/robotics-img/nrf27receiver.svg" alt="rccar" /></div>
+          <div class="3rdImg"><img src="img/robotics-img/fishfeederarduinonano.svg" alt="rccar" /></div>
+          <div class="3rdImg"><img src="img/robotics-img/nrf27transmitter.svg" alt="rccar" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skillSection" id="skillSection">
+    <div class="skillHeadline">Currently Enhancing Skills</div>
+    <div class="skillHeadlineContainer">
+    </div>
+    <div class="skillSectionOuter">
+      <div class="skillSectionInner">
+
+        <div class="column1">
+          <h3>Programming Languages:</h3>
+          <div class="skill-container">
+            <div class="skill">
+              <div class="skill-name">HTML</div>
+              <div class="skill-bar">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">85%</div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">CSS</div>
+              <div class="skill-bar">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">80%</div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">PHP</div>
+              <div class="skill-bar skill-bar1">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">78%</div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">Laravel</div>
+              <div class="skill-bar skill-bar2">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">47%</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Java</div>
+              <div class="skill-bar skill-bar2">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">80%</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Javascript</div>
+              <div class="skill-bar skill-bar2">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">72%</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Node.js</div>
+              <div class="skill-bar skill-bar2">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">35%</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">C++</div>
+              <div class="skill-bar skill-bar2">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">70%</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">C#</div>
+              <div class="skill-bar skill-bar2">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">45%</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">C</div>
+              <div class="skill-bar skill-bar2">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">38%</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Python</div>
+              <div class="skill-bar skill-bar2">
+                <div class="skill-fill"></div>
+                <div class="skill-percent">45%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column1">
+            <h3 style="padding-top: 1rem">Other Skills:</h3>
+            <div class="skill-container">
+              <div class="skill">
+                <div class="skill-name">GoHighLevel</div>
+                <div class="skill-bar">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">87%</div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">Wordpress</div>
+                <div class="skill-bar skill-bar1">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">75%</div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">GoDaddy</div>
+                <div class="skill-bar skill-bar2">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">86%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">SEO</div>
+                <div class="skill-bar skill-bar2">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">78%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Microsoft SQL</div>
+                <div class="skill-bar skill-bar2">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">73%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Canva</div>
+                <div class="skill-bar skill-bar2">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">80%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">XAMPP</div>
+                <div class="skill-bar skill-bar2">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">80%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Adobe Photoshop</div>
+                <div class="skill-bar skill-bar2">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">30%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Zapier</div>
+                <div class="skill-bar skill-bar2">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">87%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Make</div>
+                <div class="skill-bar skill-bar2">
+                  <div class="skill-fill"></div>
+                  <div class="skill-percent">48%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skillImgBox">
+          <img src="img/me/surtz.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contactSection" id="contactSection">
+
+    <div class="contactInfo">
+      <div class="contact contactTnt">TNT: <span class="cSpan">09094618068</span></div>
+      <div class="contact contactGlobe">TM: <span class="cSpan">09352111750</span></div>
+      <div class="contact email">Email: <span class="cSpan">sylbertjohnasid@gmail.com</span></div>
+    </div>
+    <div class="contactTag">
+      <h1>Contact Me!</h1>
+    </div>
+
+  </section>
+  <footer>
+    <div class="footerContainer">
+      created by: surtz
+    </div>
+  </footer>
+
+  <script src="home.js"></script>
+  <script>
+    const texts = ["I am a Full-Stack Developer", "I am a Wordpress Developer", "I'm a GoHighLevel Expert"];
+    let currentTextIndex = 0;
+    let currentCharIndex = 0;
+    let isDeleting = false;
+    const typingElement = document.getElementById('typing');
+    const caretElement = document.getElementById('caret');
+    const typingSpeed = 100;
+    const deletingSpeed = 50;
+    const pauseDuration = 1000;
+
+    function typeText() {
+      const currentText = texts[currentTextIndex];
+
+      if (isDeleting) {
+        if (currentCharIndex > 0) {
+          typingElement.innerText = currentText.slice(0, currentCharIndex);
+          currentCharIndex--;
+          moveCaret();
+          setTimeout(typeText, deletingSpeed);
+        } else {
+          isDeleting = false;
+          currentTextIndex = (currentTextIndex + 1) % texts.length;
+          setTimeout(typeText, typingSpeed);
+        }
+      } else {
+        if (currentCharIndex < currentText.length) {
+          typingElement.innerText = currentText.slice(0, currentCharIndex + 1);
+          currentCharIndex++;
+          moveCaret();
+          setTimeout(typeText, typingSpeed);
+        } else {
+          isDeleting = true;
+          setTimeout(typeText, pauseDuration);
+        }
+      }
+    }
+
+    function moveCaret() {
+      const position = typingElement.getBoundingClientRect();
+      caretElement.style.left = `${position.width}px`;
+    }
+
+    typeText();
+  </script>
+</body>
+
+</html>
