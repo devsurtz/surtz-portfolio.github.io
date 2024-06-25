@@ -26,10 +26,10 @@ function startAnimation() {
                                 window.location.href = "home.html";
                                 // var homePage = 'index.html';
                                 // window.open(homePage,'_blank');
-                            }, 2000);
-                        }, 3000);
+                            }, 1000);
+                        }, 1500);
                     }
-                }, 4000);
+                }, 2000);
             }
             bot.classList.add("botAnimation");
             leftEye.classList.add("leftEyeAnimation");
